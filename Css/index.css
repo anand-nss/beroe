@@ -2,7 +2,7 @@
 
 
 body{
-    max-width: 1280px;
+    /* max-width: 1280px; */
     margin: 0 auto 43px auto;
     position: relative;
 }
@@ -278,8 +278,8 @@ img.main-heading-img {
             margin-bottom: 5px;
         }
         .other-discussion-header{
-            width: 730px;
-            height: 21px;
+            /* width: 730px; */
+            /* height: 21px; */
             font-family: Montserrat;
             font-size: 18px;
             letter-spacing: 0.5px;
@@ -381,8 +381,8 @@ img.main-heading-img {
             margin: 0px 20px 8px 20px;
         }
         .side-note-line-text-one{
-            width: 335.6px;
-            height: 40px;
+            /* width: 335.6px; */
+            /* height: 40px; */
             font-family: OpenSans;
             font-size: 18px;
             line-height: 1.25;
@@ -440,7 +440,10 @@ img.main-heading-img {
         .context-copy{
             display: none;
         }
-        
+        .mobile-text{
+            display: none;
+            margin-left: 10px;
+        }
 
 
         @media only screen and (max-width: 767px) and (min-width: 320px){
@@ -462,6 +465,35 @@ img.main-heading-img {
             .body{
                 width: 100%;
             }
+            .main-heading{
+                margin: 33px 20px 0px 20px;
+            
+            }
+            .sub-header-wraper{
+                display: none;
+            }
+            .main-heading-text-inside{
+                display: block;
+                }
+                .ask-before{
+                    margin-right: 0px;
+                }
+                .main-body-content, .sub-body{
+                    margin: 0px;
+                }
+                .sub-body{
+                    padding-left: 22px;
+                }
+                .breadcum{
+                    font-size: 47px;
+                }
+            
+            img.main-heading-img {
+                margin: 19px 10px 16px;
+            }
+            .mobile-text{
+                display: inline;
+            }
         }
         
         
@@ -473,32 +505,3 @@ img.main-heading-img {
     
 
 
-/* .details-container-wraper {
-    background-color: #554e99;
-}
-
-
-    .details-container{
-        background-color: #554e99;
-        max-width: 1280px;
-    margin: 0 auto;
-    }
-    .container-wrap{
-        padding: 17px 0px 20px 41px;
-        max-width: 822px;
-    }
-
-    .breadcum-wrap{
-        font-family: Montserrat;
-        font-size: 12px;
-        letter-spacing: 0.93px;
-        color: #ffffff;
-        margin-bottom: 41px;
-    }
-    p.title{
-        letter-spacing: 1.09px;
-        color: #b5d400;
-        font-size: 14px;
-        /* margin-bottom: 11px; */
-    }
-     */
